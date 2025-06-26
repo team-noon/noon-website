@@ -1,0 +1,1 @@
+import{b as n,j as e,C as o,T as t}from"./index-DQ3WG0Cr.js";const s=n("/previous/eindhoven")({component:r});function r(){return e.jsx(e.Fragment,{children:e.jsx(o,{h:"100vh",children:e.jsx(t,{children:"Eindhoven (2024)"})})})}export{s as Route};

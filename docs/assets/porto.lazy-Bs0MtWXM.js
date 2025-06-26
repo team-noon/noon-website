@@ -1,0 +1,1 @@
+import{b as o,j as e,C as t,T as r}from"./index-DQ3WG0Cr.js";const i=o("/previous/porto")({component:n});function n(){return e.jsx(e.Fragment,{children:e.jsx(t,{h:"100vh",children:e.jsx(r,{children:"Porto (2022)"})})})}export{i as Route};
