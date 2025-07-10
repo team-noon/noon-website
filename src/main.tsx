@@ -8,7 +8,7 @@ import NoonLoader from './assets/components/NoonLoader.tsx'
 import { routeTree } from './routeTree.gen.ts'
 import NoonNotFound from './assets/components/NoonNotFound.tsx'
 
-const router = createRouter({ routeTree, defaultPendingComponent: NoonLoader, defaultNotFoundComponent: NoonNotFound })
+const router = createRouter({ routeTree, defaultPendingComponent: NoonLoader, defaultNotFoundComponent: NoonNotFound, basepath: import.meta.env.BASE_URL })
 
 const theme = createTheme({
   fontFamily: 'Verdana, sans-serif',
