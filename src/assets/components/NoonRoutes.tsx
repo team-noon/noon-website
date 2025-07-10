@@ -17,6 +17,7 @@ export default function NoonRoutes() {
             label: "About us"
         },
         {
+            to: "/previous",
             label: "Previous",
             subRoutes: ([
                 {
@@ -46,7 +47,7 @@ export default function NoonRoutes() {
                 }
                 else {
                     return (
-                        <Menu>
+                        <Menu key={routeOptions.to}>
                             <Menu.Target>
                                 <Text>{routeOptions.label}</Text>
                             </Menu.Target>

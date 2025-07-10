@@ -8,8 +8,4 @@ export default defineConfig({
       target: 'react',
       autoCodeSplitting: true,
   }), react()],
-  base: '/noon-website/',
-  build: {
-    outDir: './docs',
-  }
 })

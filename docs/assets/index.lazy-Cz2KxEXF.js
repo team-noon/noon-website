@@ -1,1 +1,0 @@
-import{b as o,j as e,C as t,I as s,L as r}from"./index-DQ3WG0Cr.js";const u=o("/")({component:a});function a(){return e.jsx(t,{h:"100vh",children:e.jsx(s,{radius:"md",src:r,h:"auto",w:"10vw"})})}export{u as Route};

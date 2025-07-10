@@ -2,9 +2,6 @@
   "name": "noon",
   "private": true,
   "version": "0.0.0",
-  "publishConfig": {
-    "directory": "docs"
-  },
   "type": "module",
   "scripts": {
     "dev": "vite",
